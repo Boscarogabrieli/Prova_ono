@@ -6,9 +6,18 @@
         <title>Filmes.com</title>
         <link rel="stylesheet" href="style.css" />
         <script src="script.js" defer></script>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <style>
+             body {
+             font-family: "Sofia", sans-serif;
+             }
+         </style>
+
     </head>
     <body>
         <header>
+          <h2 class = "script-header-title"><span>Filmes.com</span></h2>
             <form id="form">
                 <input
                     type="text"
@@ -16,13 +25,13 @@
                     placeholder="Search"
                     class="search"
                 />
-                 <label class="switch">
+                    <label class="switch">
                         <input type="checkbox" id="switch">
                         <span class="slider round"></span>
-                 </label>
+                    </label>
             </form>
         </header>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Topo</button>
         <main id="main"></main>
     </body>
 </html>
